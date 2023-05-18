@@ -1,39 +1,259 @@
-<!DOCTYPE html><html lang="fr"><head> <meta charset="UTF-8"> <meta name="viewport" content="width=device-width, initial-scale=1.0"> <title>The House In Fata Morgana</title><link rel="stylesheet" href="Style css/fog.css" id="styles-fog"> <link rel="stylesheet" href="Style css/accueil.css" id="styles-accueil"><link rel="stylesheet" href="Style css/progression.css" id="styles-progression"><link rel="stylesheet" href="Style css/telechargement.css" id="styles-telechargement"><link rel="stylesheet" href="Style css/faq.css" id="styles-faq"><link rel="stylesheet" href="Style css/maincss.css" id="styles-maincss"><link rel="stylesheet" href="Style css/btnsite.css" id="styles-btnsite"><link rel='stylesheet' href='https://site-assets.fontawesome.com/releases/v6.4.0/css/all.css'><link rel="shortcut icon" type="image/png" href="ressources/maid.jpg"/><script src="https://code.jquery.com/jquery-3.6.4.js"></script> <script src="script/circle-progress.js"></script> <script src="script/progress.js"></script><style>@font-face { font-family: "LibreBaskerville"; src: url('Font/LibreBaskerville-Regular.otf') format("opentype"); }	*, ::before, ::after { box-sizing: border-box;	-webkit-box-sizing: border-box; -moz-box-sizing: border-box; margin: 0; padding: 0;
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>The House In Fata Morgana</title>
+	<link rel="stylesheet" href="Style css/fog.css" id="styles-fog">
+    <link rel="stylesheet" href="Style css/accueil.css" id="styles-accueil">
+	<link rel="stylesheet" href="Style css/progression.css" id="styles-progression">
+	<link rel="stylesheet" href="Style css/telechargement.css" id="styles-telechargement">
+	<link rel="stylesheet" href="Style css/faq.css" id="styles-faq">
+	<link rel="stylesheet" href="Style css/maincss.css" id="styles-maincss">
+	<link rel="stylesheet" href="Style css/btnsite.css" id="styles-btnsite">
+	<link rel='stylesheet' href='https://site-assets.fontawesome.com/releases/v6.4.0/css/all.css'>
+	
+	<link rel="shortcut icon" type="image/png" href="ressources/maid.jpg"/>
+
+<script src="https://code.jquery.com/jquery-3.6.4.js"></script>
+  <script src="script/circle-progress.js"></script>
+  <script src="script/progress.js"></script>
+	<style>
+	
+	@font-face {
+  font-family: "LibreBaskerville";
+  src: url('Font/LibreBaskerville-Regular.otf') format("opentype");
+	   }
+	   
+	*, ::before, ::after {
+    box-sizing: border-box;
+	-webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    margin: 0;
+    padding: 0;
 }
+
 .absolute-bg {
-position: fixed; height: 100vh; width: 100vw; background-color: black; background-image: url('ressources/BG_mainmenu_gigapixel.jpg'); background-repeat: no-repeat;
+position: fixed;
+
+  height: 100vh;
+  width: 100vw;
+  
+  background-color: black;
+  background-image: url('ressources/BG_mainmenu_gigapixel.jpg');
+
+  background-repeat: no-repeat;
 background-position: center calc(50% + 10px);
 background-size: cover;
-background-attachment: fixed; overflow: hidden; z-index: -5;
+background-attachment: fixed;
+  overflow: hidden;
+   z-index: -5;
 }
+
 .absolute-bgdown {
-position: absolute; height: 90vh; width: 100vw; background-color: black; background-repeat: no-repeat;
+position: absolute;
+ height: 90vh;
+  width: 100vw;
+  background-color: black;
+
+  background-repeat: no-repeat;
 background-position: left;
-background-attachment: fixed; overflow: hidden; z-index: -4;
+background-attachment: fixed;
+  overflow: hidden;
+   z-index: -4;
 }
+
 /* À propos */
-section#mainapropos { max-width: 1040px; color: #CCCCCC; padding: 2em 1em; margin: auto; display: flex; min-height: 100vh; flex-direction: column; justify-content: center;
+
+section#mainapropos {
+    max-width: 1040px;
+    color: #CCCCCC;
+    padding: 2em 1em;
+    margin: auto;
+    display: flex;
+    min-height: 100vh;
+    flex-direction: column;
+    justify-content: center;
 }
-.team-list,.team-list li,.team-list ul { list-style-type: square; text-align: center; display: block; padding: 0; margin: 0;
+
+.team-list,.team-list li,.team-list ul {
+  list-style-type: square;
+  text-align: center;
+  display: block;
+  padding: 0;
+  margin: 0;
 }
-.team-list h3 { margin-top: 2em; margin-bottom: 0.6em; text-shadow: rgba(24,242,227,0.3) 0px 0px 2px, rgba(24,242,227,0.3) 0px 0px 2px, rgba(24,242,227,0.3) 0px 0px 2px, rgba(24,242,227,0.3) 0px 0px 2px, rgba(24,242,227,0.3) 0px 0px 2px, rgba(24,242,227,0.3) 0px 0px 2px; -webkit-font-smoothing: antialiased;
+.team-list h3 {
+  margin-top: 2em;
+  margin-bottom: 0.6em;
+    text-shadow: rgba(24,242,227,0.3) 0px 0px 2px,   rgba(24,242,227,0.3) 0px 0px 2px,   rgba(24,242,227,0.3) 0px 0px 2px,
+             rgba(24,242,227,0.3) 0px 0px 2px,   rgba(24,242,227,0.3) 0px 0px 2px,   rgba(24,242,227,0.3) 0px 0px 2px;
+    -webkit-font-smoothing: antialiased;
 }
+
 /* Responsiveness */
-@media (min-width: 932px) { .stroke{ position: fixed; overflow: hidden; -webkit-backdrop-filter: blur(7px); /* assure la compatibilité avec safari */ backdrop-filter: blur(7px); background-color: rgba(0, 0, 0, 0.4); display: flex; justify-content: center; z-index: 289; width: 100%;
-border-radius: 0px; -webkit-transform: translateX(0%); transform: translateX(0%); transition: .4s ease-out; }
-nav ul li { display: inline-block;
-} #bordernavigation{
+
+@media (min-width: 932px) {
+    .stroke{
+ 	  position: fixed;
+  overflow: hidden;
+    -webkit-backdrop-filter: blur(7px); /* assure la compatibilité avec safari */
+    backdrop-filter: blur(7px);
+  background-color: rgba(0, 0, 0, 0.4);
+  display: flex;
+  justify-content: center;
+   z-index: 289;
+  width: 100%;
+border-radius: 0px;
+  	  -webkit-transform: translateX(0%);
+    transform: translateX(0%);
+  transition: .4s ease-out;
+    }
+nav ul li {
+  display: inline-block;
+}
+		   #bordernavigation{
 position:absolute;
 bottom:0;
-left: 0;	Height: 3px;	background-color: #c6baad;	z-index: 290; width: 100%;
-overflow-x: hidden; } .hamb{ display: none; }
+left: 0;
+	Height: 3px;
+	background-color: #c6baad;
+	z-index: 290;
+	 width: 100%;
+overflow-x: hidden;
+    }
+  
+    .hamb{
+        display: none;
+    }
+	
 #dark
-{	position: fixed;	margin:0px;	right: 15px;	left: auto;	top: 1px;	display:-webkit-box;	display:-ms-flexbox;	display:flex;	-webkit-box-orient:vertical;	-webkit-box-direction:normal;	-ms-flex-direction:column;	flex-direction:column
+{
+	position: fixed;
+	margin:0px;
+	right: 15px;
+	left: auto;
+	top: 1px;
+	display:-webkit-box;
+	display:-ms-flexbox;
+	display:flex;
+	-webkit-box-orient:vertical;
+	-webkit-box-direction:normal;
+	-ms-flex-direction:column;
+	flex-direction:column
 }
-#buttonmute {	position: fixed;	margin:0px;	left: 15px;	top: 1px;	display:-webkit-box;	display:-ms-flexbox;	display:flex;	-webkit-box-align:center;	-ms-flex-align:center;	align-items:center;	-webkit-box-pack:center;	-ms-flex-pack:center;	justify-content:center;	-webkit-box-orient:vertical;	-webkit-box-direction:normal;	-ms-flex-direction:column;	flex-direction:column
+
+#buttonmute {
+	position: fixed;
+	margin:0px;
+	left: 15px;
+	top: 1px;
+	display:-webkit-box;
+	display:-ms-flexbox;
+	display:flex;
+	-webkit-box-align:center;
+	-ms-flex-align:center;
+	align-items:center;
+	-webkit-box-pack:center;
+	-ms-flex-pack:center;
+	justify-content:center;
+	-webkit-box-orient:vertical;
+	-webkit-box-direction:normal;
+	-ms-flex-direction:column;
+	flex-direction:column
 }
-.infoVN { display: flex; flex-direction: row; gap: 2em;
+
+.infoVN {
+	   display: flex;
+    flex-direction: row;
+    gap: 2em;
 }
-.histoires { grid-gap: 1.4em; display: grid; flex: 3 1; gap: 1.4em; grid-template-columns: 1fr 1fr 1fr;
-} .histoire { border-radius: 4px; box-sizing: border-box; display: flex; flex-direction: column;	height: clamp(430px,50vh,700px); justify-content: space-between; overflow: hidden; position: relative; width: 100%; }
-}</style></head><body onload = "loadPage()" id="body"><div class="absolute-bg"></div> <div class="fog-container"> <div class="fog-img fog-img-first"></div> <div class="fog-img fog-img-second"></div> </div><header class="header"> <!-- Hamburger icon --> <input onclick="PlaySound('MenuHambSound')" class="side-menu" type="checkbox" id="side-menu"/> <label class="hamb" for="side-menu"><span class="hamb-line"></span></label><nav class="stroke"><div id="dark"><ul><li><a href="https://discord.com/invite/SjXXuyqFsZ" target="_blank" class="btn-gradient rounded instagram"><i class="fab fa-discord"></i></a></li><li><a href="https://twitter.com/FataTrad" target="_blank" class="btn-gradient rounded twitter"><i class="fab fa-twitter"></i></a></li><li><a href="https://github.com/MysticHaze157/fata-morgana-remastered-french" target="_blank" class="btn-gradient rounded github"><i class="fab fa-github"></i></a></li></ul></div><div id="buttonmute" onclick="Play()"><ul><li><a class="btn-gradient rounded sound"><i class="fa-solid fa-music-note-slash"></i></a></li></ul></div><div class="topnav" id="navigation"><ul> <div id="bordernavigation"></div> <li><a onclick="loadPageSwitch(0)">Accueil</a></li><li><a onclick="loadPageSwitch(1)">Progression</a></li><li><a onclick="loadPageSwitch(2)">Téléchargement</a></li> <li><a onclick="loadPageSwitch(3)">FAQ</a></li> <li><a onclick="loadPageSwitch(4)">À propos</a></li></ul></div></nav></header> <main></main> <audio controls autoplay loop hidden id="audioval" src="ressources/Reencarnacao_inst.ogg" type="audio/ogg"></audio> <audio hidden id="MenuHambSound" src="ressources/Bell.ogg" preload="auto"></audio> <audio hidden id="ClickAllLink" src="ressources/click.ogg" preload="auto"></audio> </body><script src="script/main.js"></script></html>
+
+.histoires {
+    grid-gap: 1.4em;
+    display: grid;
+    flex: 3 1;
+    gap: 1.4em;
+    grid-template-columns: 1fr 1fr 1fr;
+}
+
+  .histoire {
+       border-radius: 4px;
+    box-sizing: border-box;
+    display: flex;
+    flex-direction: column;
+	height: clamp(430px,50vh,700px);
+    justify-content: space-between;
+    overflow: hidden;
+    position: relative;
+    width: 100%;
+  }
+  
+}
+		</style>
+</head>
+
+<body onload = "loadPage()" id="body">
+<div class="absolute-bg"></div>
+    <div class="fog-container">
+      <div class="fog-img fog-img-first"></div>
+      <div class="fog-img fog-img-second"></div>
+    </div>
+	
+	<header class="header">
+	
+	      <!-- Hamburger icon -->
+        <input onclick="PlaySound('MenuHambSound')" class="side-menu" type="checkbox" id="side-menu"/>
+        <label class="hamb" for="side-menu"><span class="hamb-line"></span></label>
+		
+		
+<nav class="stroke">
+
+<div id="dark">
+	<ul>
+		<li><a href="https://discord.com/invite/SjXXuyqFsZ" target="_blank" class="btn-gradient rounded instagram"><i class="fab fa-discord"></i></a></li>
+		<li><a href="https://twitter.com/FataTrad" target="_blank" class="btn-gradient rounded twitter"><i class="fab fa-twitter"></i></a></li>
+		<li><a href="https://github.com/MysticHaze157/fata-morgana-remastered-french" target="_blank" class="btn-gradient rounded github"><i class="fab fa-github"></i></a></li>
+	</ul>
+</div>
+
+<div id="buttonmute" onclick="Play()">
+<ul>
+<li><a class="btn-gradient rounded sound"><i class="fa-solid fa-music-note-slash"></i></a></li>
+	</ul>
+</div>
+
+<div class="topnav" id="navigation">
+
+
+<ul>
+  <div id="bordernavigation"></div>
+  
+
+ <li><a onclick="loadPageSwitch(0)">Accueil</a></li>
+<li><a onclick="loadPageSwitch(1)">Progression</a></li>
+<li><a onclick="loadPageSwitch(2)">Téléchargement</a></li>
+ <li><a onclick="loadPageSwitch(3)">FAQ</a></li>
+ <li><a onclick="loadPageSwitch(4)">À propos</a></li>
+</ul>
+</div>
+
+</nav>
+</header>
+  
+
+ 
+<main>
+
+
+</main>
+
+
+ <audio controls autoplay loop hidden id="audioval" src="ressources/Reencarnacao_inst.ogg" type="audio/ogg"></audio>
+ <audio hidden id="MenuHambSound" src="ressources/Bell.ogg" preload="auto"></audio>
+ <audio hidden id="ClickAllLink" src="ressources/click.ogg" preload="auto"></audio>
+ 
+</body>
+
+<script src="script/main.js"></script>
+</html>
