@@ -1,79 +1,20 @@
-<section id="mainpageprogress">
-    <h1>Progression du patch</h1>
-    <div id="progression">
-      <div id="progression-fata">
-	  <div id="progressionimg-fata"></div>
-
-      </div>
-
-      <div id="progression-requiem">
-	  <div id="progressionimg-requiem"></div>
-
-      </div>
-
-      <div id="progression-reinc">
-	  <div id="progressionimg-reinc"></div>
- 
-      </div>
-
-      <div class="flex-break"></div>
-
-   <!--   <div class="progression-bottom-container">
-        <div class="progression-bottom">
-          <div id="container_pro" class="contprogress"></div>
-          Histoire courtes
-        </div>
-
-        <div class="progression-bottom">
-          <div id="container_le" class="contprogress"></div>
-          ?????
-        </div>
-      </div> -->
-    </div>
-
-  </section>
-<script>
-
-var contentbarre;
-contentbarre = '<div id="container_fata" data-value="' + Math.round(getTotalProgress(fata_progress)) / 100 + '" data-size="80" class="contprogress">\
-		<strong></strong>\
-		</div>\
-        <div id="container_fata_details"></div>';
-$( "#progression-fata" ).append( contentbarre );	  
-	  
-contentbarre = '<div id="container_requiem" data-value="' + Math.round(getTotalProgress(requiem_progress)) / 100 + '" data-size="80" class="contprogress">\
-		<strong></strong>\
-		</div>\
-        <div id="container_requiem_details"></div>';
-$( "#progression-requiem" ).append( contentbarre );	   
-
-contentbarre = '<div id="container_reinc" data-value="' + Math.round(getTotalProgress(reinc_progress)) / 100 + '" data-size="80" class="contprogress">\
-		<strong></strong>\
-		</div>\
-        <div id="container_reinc_details"></div>';
-$( "#progression-reinc" ).append( contentbarre );	 
-
-$(".contprogress").circleProgress({
-  fill: {gradient: ['#5e198e', '#9600ff']}
-}).on('circle-animation-progress', function(event, progress, stepValue) {
-  $(this).find('strong').html(stepValue.toFixed(2).substr(2) + '<i>%</i>');
+<section id="mainpageprogress"> <h1>Progression du patch</h1> <div id="progression"> <div id="progression-fata"> <div id="progressionimg-fata"></div> </div> <div id="progression-requiem"> <div id="progressionimg-requiem"></div> </div> <div id="progression-reinc"> <div id="progressionimg-reinc"></div> </div> <div class="flex-break"></div> <!-- <div class="progression-bottom-container"> <div class="progression-bottom"> <div id="container_pro" class="contprogress"></div> Histoire courtes </div> <div class="progression-bottom"> <div id="container_le" class="contprogress"></div> ????? </div> </div> --> </div> </section><script>var contentbarre;
+contentbarre = '<div id="container_fata" data-value="' + Math.round(getTotalProgress(fata_progress)) / 100 + '" data-size="80" class="contprogress">\<strong></strong>\</div>\ <div id="container_fata_details"></div>';
+$( "#progression-fata" ).append( contentbarre );
+contentbarre = '<div id="container_requiem" data-value="' + Math.round(getTotalProgress(requiem_progress)) / 100 + '" data-size="80" class="contprogress">\<strong></strong>\</div>\ <div id="container_requiem_details"></div>';
+$( "#progression-requiem" ).append( contentbarre );
+contentbarre = '<div id="container_reinc" data-value="' + Math.round(getTotalProgress(reinc_progress)) / 100 + '" data-size="80" class="contprogress">\<strong></strong>\</div>\ <div id="container_reinc_details"></div>';
+$( "#progression-reinc" ).append( contentbarre );
+$(".contprogress").circleProgress({ fill: {gradient: ['#5e198e', '#9600ff']}
+}).on('circle-animation-progress', function(event, progress, stepValue) { $(this).find('strong').html(stepValue.toFixed(2).substr(2) + '<i>%</i>');
 });
-
-
-fata_progress.forEach((day) => {
-  displayProgress(day[0], day[1], day[2], "container_fata_details");
+fata_progress.forEach((day) => { displayProgress(day[0], day[1], day[2], "container_fata_details");
 });
-requiem_progress.forEach((day) => {
-  displayProgress(day[0], day[1], day[2], "container_requiem_details");
+requiem_progress.forEach((day) => { displayProgress(day[0], day[1], day[2], "container_requiem_details");
 });
-reinc_progress.forEach((day) => {
-  displayProgress(day[0], day[1], day[2], "container_reinc_details");
+reinc_progress.forEach((day) => { displayProgress(day[0], day[1], day[2], "container_reinc_details");
 });
-
-
-	  
 //updateProgress('navigation', Math.round(getTotalProgress(fata_progress)) / 100);
 //updateProgress('container_requiem', Math.round(getTotalProgress(requiem_progress)) / 100);
 //updateProgress('container_reinc', Math.round(getTotalProgress(reinc_progress)) / 100);
-//updateProgress('container_pro', 0);
-</script>
+//updateProgress('container_pro', 0);</script>
