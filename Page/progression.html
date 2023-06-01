@@ -56,7 +56,8 @@ $( "#progression-reinc" ).append( contentbarre );
 $(".contprogress").circleProgress({
   fill: {gradient: ['#5e198e', '#9600ff']}
 }).on('circle-animation-progress', function(event, progress, stepValue) {
-  $(this).find('strong').html(stepValue.toFixed(2).substr(2) + '<i>%</i>');
+var numberpercentpro = (stepValue * 100).toFixed(0);
+  $(this).find('strong').html((numberpercentpro < 10 ? "0" : "") + numberpercentpro + '<i>%</i>');
 });
 
 
