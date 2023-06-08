@@ -52,7 +52,7 @@ releasecontent +='<a href="' + data[i].body.match(/Android version : .*/)[0].rep
 }
 
 
-       releasecontent +=  '<div id="releaseDate">' + data[i].published_at + ' publié le ';
+       releasecontent +=  '<div id="releaseDate">' + data[i].name + ' publié le ';
 releasecontent += data[i].published_at.slice(8,10) + '/' + data[i].published_at.slice(5,7) + '/' + data[i].published_at.slice(0,4) + '\
 			</div>\
           </div>';
