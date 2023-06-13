@@ -1,1 +1,326 @@
-@-webkit-keyframes downloadBounce{to{-webkit-transform:translateY(0px) rotate(50deg);}}@-moz-keyframes downloadBounce{to{-moz-transform:translateY(0px) rotate(50deg);}}@keyframes downloadBounce{to{-webkit-transform:translateY(0px) rotate(50deg);-moz-transform:translateY(0px) rotate(50deg);-ms-transform:translateY(0px) rotate(50deg);-o-transform:translateY(0px) rotate(50deg);transform:translateY(0px) rotate(50deg);}}@-webkit-keyframes downloadBounce2{to{-webkit-transform:translateY(0px) rotate(-50deg);}}@-moz-keyframes downloadBounce2{to{-moz-transform:translateY(0px) rotate(-50deg);}}@keyframes downloadBounce2{to{-webkit-transform:translateY(0px) rotate(-50deg);-moz-transform:translateY(0px) rotate(-50deg);-ms-transform:translateY(0px) rotate(-50deg);-o-transform:translateY(0px) rotate(-50deg);transform:translateY(0px) rotate(-50deg);}}[class~=Fenetredownloads]{grid-gap:1rem;}[class~=download] span:after{content:"";}[class~=Fenetredownloads]{display:grid;}#Telechargement{color:#ccc;}#Telechargement h2{display:block;}[class~=download] span:after{width:.010416667in;}[class~=download]:hover span:after,[class~=download]:hover span:before{opacity:1;}section [class~=container]{background-color:rgba(0,0,0,.6);}[class~=Fenetredownloads]{gap:1rem;}[class~=download] span:after,[class~=download]:hover svg{left:50%;}section [class~=container]{border-radius:2rem;}[class~=download]:hover span:after,[class~=download]:hover span:before{-webkit-transition:all 400ms ease-out 400ms,-webkit-transform 300ms ease-in 100ms;}[class~=download]:hover span:after,[class~=download]:hover span:before{-moz-transition:all 400ms ease-out 400ms,-moz-transform 300ms ease-in 100ms;}#Telechargement{display:flex;}[class~=download]:hover svg#windows{-webkit-transform:translate(-50%,-10%) rotate(60deg) scale(1);}#Telechargement h2{font-size:1.5em;}section [class~=container]{flex:1 1;}[class~=Fenetredownloads],section [class~=container]{text-align:center;}#Telechargement{flex-direction:column;}[class~=download]:hover{padding-left:0;}section [class~=container],#Telechargement{margin-left:auto;}[class~=download]:hover span:before,[class~=download]:hover span:after{transition:all 400ms ease-out 400ms,transform 300ms ease-in 100ms;}#Telechargement{justify-content:center;}#Telechargement h2{margin-block-start:.83em;}section [class~=container]{margin-bottom:0;}[class~=Fenetredownloads]{-webkit-font-smoothing:antialiased;}#Telechargement{margin-bottom:auto;}section [class~=container],#Telechargement{margin-right:auto;}[class~=download] span:after{height:1pc;}[class~=download]:hover svg#windows{-moz-transform:translate(-50%,-10%) rotate(60deg) scale(1);}[class~=reveal][class~=disabledown] [class~=download]{display:none;}[class~=download],[class~=download] span:after{background:#2f0b48;}[class~=download]:hover svg{-webkit-transform:translate(-50%,-50%) rotate(60deg) scale(1);}[class~=download] span:after{opacity:0;}#Telechargement h2{margin-block-end:.83em;}[class~=download]:hover{padding-bottom:1.625pc;}[class~=Fenetredownloads]{--valuescrollnum:1;}[class~=Fenetredownloads]{padding-bottom:4.8125pc;}[class~=download] span:after{position:absolute;}[class~=download]{-webkit-mask-image:url("data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAEAAAABCAIAAACQd1PeAAAAGXRFWHRTb2Z0d2FyZQBBZG9iZSBJbWFnZVJlYWR5ccllPAAAAA5JREFUeNpiYGBgAAgwAAAEAAGbA+oJAAAAAElFTkSuQmCC");}section [class~=container]{margin-top:0;}[class~=Fenetredownloads] img{aspect-ratio:35/10;}[class~=download] span:after{top:100%;}[class~=download]:hover{padding-right:0;}[class~=download]:hover svg{-moz-transform:translate(-50%,-50%) rotate(60deg) scale(1);}#Telechargement{margin-top:auto;}[class~=download]{overflow:hidden;}[class~=download]:hover span:after{-webkit-transform:translateY(7px) rotate(50deg);}[class~=download]:hover span:after{-moz-transform:translateY(7px) rotate(50deg);}[class~=download] span:after{-webkit-transition:all 10ms ease-out;}[class~=download] span:after{-moz-transition:all 10ms ease-out;}[class~=download]:hover span:after{-ms-transform:translateY(7px) rotate(50deg);}[class~=download]:hover svg{-ms-transform:translate(-50%,-50%) rotate(60deg) scale(1);}[class~=download]:hover span:after{-o-transform:translateY(7px) rotate(50deg);}[class~=download]{border-radius:.052083333in;}[class~=Fenetredownloads] img{border-radius:1em;}[class~=download]:hover svg{-o-transform:translate(-50%,-50%) rotate(60deg) scale(1);}[class~=download] span:after{transition:all 10ms ease-out;}[class~=download] span:after{-webkit-transform-origin:center bottom;}[class~=download] svg#linux{-webkit-transform:translate(-50%,-50%) rotate(0deg) scale(.05857);}[class~=download] span:after{-moz-transform-origin:center bottom;}[class~=download] svg#linux{-moz-transform:translate(-50%,-50%) rotate(0deg) scale(.05857);}[class~=download]{-webkit-box-sizing:border-box;}[class~=download] span:after{-ms-transform-origin:center bottom;}[class~=download]:hover svg{transform:translate(-50%,-50%) rotate(60deg) scale(1);}[class~=download]{-moz-box-sizing:border-box;}[class~=download]:hover span:after{transform:translateY(7px) rotate(50deg);}[class~=Fenetredownloads] img{display:block;}[class~=download]:hover{padding-top:1.625pc;}[class~=Fenetredownloads] img{max-height:100%;}[class~=download]:hover svg#windows{-ms-transform:translate(-50%,-10%) rotate(60deg) scale(1);}[class~=download] span:after{-o-transform-origin:center bottom;}[class~=download]:hover{color:#2f0b48;}[class~=download]{box-sizing:border-box;}#Telechargement h2{margin-inline-start:0px;}[class~=download]:hover span:after{-webkit-animation:downloadBounce 800ms linear alternate infinite;}#Telechargement h2{margin-inline-end:0pt;}[class~=btn-grad]:hover{background-position:right center;}[class~=download] span:after{transform-origin:center bottom;}[class~=download] span:after{-webkit-transform:translateY(0) rotate(0deg);}[class~=Fenetredownloads] img{width:100%;}[class~=Fenetredownloads] img{padding-bottom:7.5pt;}[class~=download] span:after{-moz-transform:translateY(0) rotate(0deg);}[class~=download] span:after{-ms-transform:translateY(0) rotate(0deg);}[class~=download] span:after{-o-transform:translateY(0) rotate(0deg);}#Telechargement{max-width:1130px;}[class~=download]{border-left-width:.0625pc;}[class~=download] span:after{transform:translateY(0) rotate(0deg);}[class~=download]:hover span:after{-moz-animation:downloadBounce 800ms linear alternate infinite;}[class~=download]:hover svg#windows{-o-transform:translate(-50%,-10%) rotate(60deg) scale(1);}[class~=download]{border-bottom-width:.0625pc;}#Telechargement h2{font-weight:bold;}#Telechargement{min-height:calc(92vh - 50px);}[class~=download]{border-right-width:.0625pc;}[class~=btn-grad]:hover{color:#fff;}#Telechargement p{color:#d3d3d3;}[class~=download] span:after{-webkit-animation:0;}.Fenetredownloads a,[class~=btn-grad]:hover{text-decoration:none;}[class~=download]{border-top-width:.0625pc;}#Telechargement,[class~=download] span,[class~=reveal][class~=disableup],[class~=reveal][class~=disabledown]{position:relative;}.reveal.disableup .download{display:none;}[class~=reveal][class~=disabledown],[class~=reveal][class~=disableup]{width:60%;}[class~=download] span:after{-moz-animation:0;}[class~=reveal][class~=disableup],[class~=reveal][class~=disabledown]{transition:all 1s ease;}[class~=download]{border-left-style:solid;}#Telechargement p{font-size:1.25rem;}[class~=download] span:after{animation:0;}[class~=download]:hover span:after{animation:downloadBounce 800ms linear alternate infinite;}[class~=download] span:before{content:"";}[class~=download]:hover span{-webkit-transform:translate(0,-10px) scale(1.1);}#Telechargement p{margin-left:auto;}[class~=download] span:before{width:.010416667in;}[class~=download]{border-bottom-style:solid;}[class~=download] span:before{height:1pc;}[class~=download]{border-right-style:solid;}[class~=download] span:before{background:#2f0b48;}[class~=download]:hover span:before{-webkit-transform:translateY(7px) rotate(-50deg);}[class~=download] span{display:block;}[class~=download]{border-top-style:solid;}#Telechargement p{margin-bottom:1in;}#Telechargement p{margin-right:auto;}[class~=download]{border-left-color:white;}[class~=reveal][class~=disabledown],[class~=reveal][class~=disableup]{pointer-events:none;}#Telechargement p{margin-top:0;}[class~=download]{border-bottom-color:white;}[class~=download]{border-right-color:white;}[class~=download]{border-top-color:white;}[class~=download] span{top:-.6875pc;}#Telechargement{min-height:calc(92vh - var(--header-height));}[class~=download] span:before{opacity:0;}[class~=download]{border-image:none;}#Telechargement{padding-left:1em;}[class~=download] span:before{position:absolute;}#Telechargement{padding-bottom:28vh;}[class~=download] span:before{left:50%;}[class~=download]{color:white;}[class~=download] span{z-index:1;}[class~=download]{padding-left:.291666667in;}[class~=download] span{-webkit-transform:translate(0,0);}#Telechargement{padding-right:1em;}[class~=download]{padding-bottom:.270833333in;}[class~=download] span:before{top:100%;}#Telechargement{padding-top:30vh;}[class~=download]{padding-right:0;}[class~=download] span:before{-webkit-transition:all 10ms ease-out;}[class~=download]:hover span{-moz-transform:translate(0,-10px) scale(1.1);}[class~=download] span{-moz-transform:translate(0,0);}[class~=download]:hover svg#windows{transform:translate(-50%,-10%) rotate(60deg) scale(1);}#Telechargement p{max-width:8.958333333in;}#Telechargement p{text-align:center;}[class~=download]{padding-top:1.625pc;}[class~=download] span:before{-moz-transition:all 10ms ease-out;}[class~=download]:hover span:before{-moz-transform:translateY(7px) rotate(-50deg);}[class~=download] span:before{transition:all 10ms ease-out;}[class~=download] span{-ms-transform:translate(0,0);}[class~=download] span:before{-webkit-transform-origin:center bottom;}[class~=download]:hover span:before{-ms-transform:translateY(7px) rotate(-50deg);}[class~=download]{width:20%;}[class~=download] span{-o-transform:translate(0,0);}[class~=download]:hover span:before{-o-transform:translateY(7px) rotate(-50deg);}[class~=reveal][class~=active]{width:100%;}[class~=download]:hover span{-ms-transform:translate(0,-10px) scale(1.1);}[class~=download]{height:10%;}[class~=download]:hover span:before{transform:translateY(7px) rotate(-50deg);}[class~=reveal][class~=active]{opacity:1;}[class~=download] span{transform:translate(0,0);}[class~=download]{display:inline-block;}[class~=reveal][class~=active]{left:0in;}[class~=download]{position:relative;}[class~=download]{margin-top:11.25pt;}[class~=download]{-webkit-transition:all 300ms ease;}[class~=download] span:before{-moz-transform-origin:center bottom;}[class~=download]:hover svg#linux{-webkit-transform:translate(-120%,-125%) rotate(60deg) scale(6);}[class~=download] span:before{-ms-transform-origin:center bottom;}[class~=download] span:before{-o-transform-origin:center bottom;}[class~=download]:hover span:before{-webkit-animation:downloadBounce2 800ms linear alternate infinite;}[class~=download] svg{z-index:0;}[class~=download]{-moz-transition:all 300ms ease;}[class~=reveal][class~=active]{transition:all 1s ease;}[class~=download]:hover span:before{-moz-animation:downloadBounce2 800ms linear alternate infinite;}[class~=download] span:before{transform-origin:center bottom;}[class~=download]{transition:all 300ms ease;}[class~=download]:hover span:before{animation:downloadBounce2 800ms linear alternate infinite;}[class~=download]{margin-right:20px;}[class~=download] svg{fill:white;}[class~=download]:hover span{-o-transform:translate(0,-10px) scale(1.1);}[class~=download] svg{position:absolute;}[class~=download] svg{left:20%;}[class~=btn-grad]{background-image:linear-gradient(to right,#1a2980 0%,#1badac 51%,#1a2980 100%);}[class~=btn-grad]{min-width:90px;}[class~=download]:hover svg#linux{-moz-transform:translate(-120%,-125%) rotate(60deg) scale(6);}[class~=btn-grad]{margin-left:0;}[class~=btn-grad]{margin-bottom:7.5pt;}[class~=btn-grad]{margin-right:0;}[class~=download]:hover span{transform:translate(0,-10px) scale(1.1);}[class~=download] svg{top:50%;}[class~=download]:hover span{-webkit-transition:-webkit-transform 400ms ease-out 400ms;}[class~=download] svg{-webkit-transform:translate(-50%,-50%) rotate(0deg) scale(.04857);}[class~=download]:hover span{-moz-transition:-moz-transform 400ms ease-out 400ms;}[class~=download] svg{-moz-transform:translate(-50%,-50%) rotate(0deg) scale(.04857);}[class~=download] svg{-ms-transform:translate(-50%,-50%) rotate(0deg) scale(.04857);}[class~=btn-grad]{margin-top:7.5pt;}[class~=btn-grad]{padding-left:2.5pc;}[class~=download] svg{-o-transform:translate(-50%,-50%) rotate(0deg) scale(.04857);}[class~=btn-grad]{padding-bottom:.145833333in;}[class~=download]:hover svg#linux{-ms-transform:translate(-120%,-125%) rotate(60deg) scale(6);}[class~=btn-grad]{padding-right:2.5pc;}[class~=btn-grad]{padding-top:.145833333in;}[class~=btn-grad]{text-align:center;}[class~=download] svg#linux{-ms-transform:translate(-50%,-50%) rotate(0deg) scale(.05857);}[class~=btn-grad]{text-transform:uppercase;}[class~=btn-grad]{transition:.5s;}[class~=download]:hover span{transition:transform 400ms ease-out 400ms;}[class~=download] svg{transform:translate(-50%,-50%) rotate(0deg) scale(.04857);}[class~=btn-grad]{background-size:200% auto;}[class~=download] svg{-webkit-transition:all 350ms ease-out;}[class~=download] span:before{-webkit-transform:translateY(0) rotate(0deg);}[class~=btn-grad]{color:#fff;}[class~=download] svg#linux{-o-transform:translate(-50%,-50%) rotate(0deg) scale(.05857);}[class~=download] span:before{-moz-transform:translateY(0) rotate(0deg);}[class~=btn-grad]{border-radius:.0625in;}[class~=download] span:before{-ms-transform:translateY(0) rotate(0deg);}[class~=btn-grad]{display:block;}[class~=download] svg{-moz-transition:all 350ms ease-out;}[class~=download] span:before{-o-transform:translateY(0) rotate(0deg);}[class~=download] span:before{transform:translateY(0) rotate(0deg);}[class~=download] svg{transition:all 350ms ease-out;}[class~=download] svg{height:525pt;}[class~=download] svg#linux{transform:translate(-50%,-50%) rotate(0deg) scale(.05857);}[class~=download] span:before{-webkit-animation:0;}[class~=download]:hover svg#linux{-o-transform:translate(-120%,-125%) rotate(60deg) scale(6);}[class~=download] span:before{-moz-animation:0;}[class~=download] span:before{animation:0;}[class~=download]:hover svg#linux{transform:translate(-120%,-125%) rotate(60deg) scale(6);}@media (orientation: portrait){[class~=download]{width:20%;}[class~=download] svg{left:48%;}[class~=download]{height:10%;}[class~=download] svg{top:50%;}.download span{content:"";}.download span{opacity:0;}}
+/* psuedo element animations */
+@-webkit-keyframes downloadBounce {
+  to {
+    -webkit-transform: translateY(0px) rotate(50deg);
+  }
+}
+@-moz-keyframes downloadBounce {
+  to {
+    -moz-transform: translateY(0px) rotate(50deg);
+  }
+}
+@keyframes downloadBounce {
+  to {
+    -webkit-transform: translateY(0px) rotate(50deg);
+    -moz-transform: translateY(0px) rotate(50deg);
+    -ms-transform: translateY(0px) rotate(50deg);
+    -o-transform: translateY(0px) rotate(50deg);
+    transform: translateY(0px) rotate(50deg);
+  }
+}
+@-webkit-keyframes downloadBounce2 {
+  to {
+    -webkit-transform: translateY(0px) rotate(-50deg);
+  }
+}
+@-moz-keyframes downloadBounce2 {
+  to {
+    -moz-transform: translateY(0px) rotate(-50deg);
+  }
+}
+@keyframes downloadBounce2 {
+  to {
+    -webkit-transform: translateY(0px) rotate(-50deg);
+    -moz-transform: translateY(0px) rotate(-50deg);
+    -ms-transform: translateY(0px) rotate(-50deg);
+    -o-transform: translateY(0px) rotate(-50deg);
+    transform: translateY(0px) rotate(-50deg);
+  }
+}
+
+.Fenetredownloads {
+	
+    grid-gap: 1rem;
+    display: grid;
+    gap: 1rem;
+
+text-align: center;
+  -webkit-font-smoothing: antialiased;
+--valuescrollnum: 1;
+padding-bottom: 77px;
+}
+
+section .container{
+    background-color: rgba(0,0,0,0.60);
+    border-radius: 2rem;
+    flex: 1 1;
+  text-align: center;
+  margin: 0 auto;
+}
+
+.Fenetredownloads img {
+    aspect-ratio: 35/10;
+    border-radius: 1em;
+    display: block;
+    max-height: 100%;
+    width: 100%;
+	padding-bottom: 10px;
+}
+
+.Fenetredownloads a {
+  text-decoration: none;
+}
+
+.download {
+  /* rounded corner overflow mask fix */
+  -webkit-mask-image: url(data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAEAAAABCAIAAACQd1PeAAAAGXRFWHRTb2Z0d2FyZQBBZG9iZSBJbWFnZVJlYWR5ccllPAAAAA5JREFUeNpiYGBgAAgwAAAEAAGbA+oJAAAAAElFTkSuQmCC);
+  overflow: hidden;
+  border-radius: 5px;
+  -webkit-box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  box-sizing: border-box;
+  background: #2f0b48;
+  border: 1px solid white;
+  
+  color: white;
+  padding: 26px 0 26px 28px;
+  width: 20%;
+  height: 10%;
+  display: inline-block;
+  
+  position: relative;
+  margin-top : 15px;
+  -webkit-transition: all 300ms ease;
+  -moz-transition: all 300ms ease;
+  transition: all 300ms ease;
+  margin-right: 20px;
+  
+}
+.download span {
+  display: block;
+  position: relative;
+  top: -11px;
+  z-index: 1;
+  -webkit-transform: translate(0, 0);
+  -moz-transform: translate(0, 0);
+  -ms-transform: translate(0, 0);
+  -o-transform: translate(0, 0);
+  transform: translate(0, 0);
+}
+.download span:after, .download span:before {
+  content: "";
+  width: 1px;
+  height: 16px;
+  background: #2f0b48;
+  opacity: 0;
+  position: absolute;
+  left: 50%;
+  top: 100%;
+  -webkit-transition: all 10ms ease-out;
+  -moz-transition: all 10ms ease-out;
+  transition: all 10ms ease-out;
+  -webkit-transform-origin: center bottom;
+  -moz-transform-origin: center bottom;
+  -ms-transform-origin: center bottom;
+  -o-transform-origin: center bottom;
+  transform-origin: center bottom;
+  -webkit-transform: translateY(0) rotate(0deg);
+  -moz-transform: translateY(0) rotate(0deg);
+  -ms-transform: translateY(0) rotate(0deg);
+  -o-transform: translateY(0) rotate(0deg);
+  transform: translateY(0) rotate(0deg);
+  -webkit-animation: 0;
+  -moz-animation: 0;
+  animation: 0;
+}
+.download svg {
+  z-index: 0;
+  fill: white;
+  position: absolute;
+  left: 20%;
+  top: 50%;
+  -webkit-transform: translate(-50%, -50%) rotate(0deg) scale(0.04857);
+  -moz-transform: translate(-50%, -50%) rotate(0deg) scale(0.04857);
+  -ms-transform: translate(-50%, -50%) rotate(0deg) scale(0.04857);
+  -o-transform: translate(-50%, -50%) rotate(0deg) scale(0.04857);
+  transform: translate(-50%, -50%) rotate(0deg) scale(0.04857);
+  -webkit-transition: all 350ms ease-out;
+  -moz-transition: all 350ms ease-out;
+  transition: all 350ms ease-out;
+  height: 700px;
+}
+.download svg#linux {
+  -webkit-transform: translate(-50%, -50%) rotate(0deg) scale(0.05857);
+  -moz-transform: translate(-50%, -50%) rotate(0deg) scale(0.05857);
+  -ms-transform: translate(-50%, -50%) rotate(0deg) scale(0.05857);
+  -o-transform: translate(-50%, -50%) rotate(0deg) scale(0.05857);
+  transform: translate(-50%, -50%) rotate(0deg) scale(0.05857);
+}
+.download:hover {
+  padding: 26px 0;
+  color: #2f0b48;
+}
+.download:hover svg {
+  left: 50%;
+  -webkit-transform: translate(-50%, -50%) rotate(60deg) scale(1);
+  -moz-transform: translate(-50%, -50%) rotate(60deg) scale(1);
+  -ms-transform: translate(-50%, -50%) rotate(60deg) scale(1);
+  -o-transform: translate(-50%, -50%) rotate(60deg) scale(1);
+  transform: translate(-50%, -50%) rotate(60deg) scale(1);
+}
+.download:hover svg#windows {
+  -webkit-transform: translate(-50%, -10%) rotate(60deg) scale(1);
+  -moz-transform: translate(-50%, -10%) rotate(60deg) scale(1);
+  -ms-transform: translate(-50%, -10%) rotate(60deg) scale(1);
+  -o-transform: translate(-50%, -10%) rotate(60deg) scale(1);
+  transform: translate(-50%, -10%) rotate(60deg) scale(1);
+}
+.download:hover svg#linux {
+  -webkit-transform: translate(-120%, -125%) rotate(60deg) scale(6);
+  -moz-transform: translate(-120%, -125%) rotate(60deg) scale(6);
+  -ms-transform: translate(-120%, -125%) rotate(60deg) scale(6);
+  -o-transform: translate(-120%, -125%) rotate(60deg) scale(6);
+  transform: translate(-120%, -125%) rotate(60deg) scale(6);
+}
+.download:hover span {
+  -webkit-transform: translate(0, -10px) scale(1.1);
+  -moz-transform: translate(0, -10px) scale(1.1);
+  -ms-transform: translate(0, -10px) scale(1.1);
+  -o-transform: translate(0, -10px) scale(1.1);
+  transform: translate(0, -10px) scale(1.1);
+  -webkit-transition: -webkit-transform 400ms ease-out 400ms;
+  -moz-transition: -moz-transform 400ms ease-out 400ms;
+  transition: transform 400ms ease-out 400ms;
+}
+.download:hover span:after, .download:hover span:before {
+  opacity: 1;
+  -webkit-transition: all 400ms ease-out 400ms, -webkit-transform 300ms ease-in 100ms;
+  -moz-transition: all 400ms ease-out 400ms, -moz-transform 300ms ease-in 100ms;
+  transition: all 400ms ease-out 400ms, transform 300ms ease-in 100ms;
+}
+.download:hover span:after {
+  -webkit-transform: translateY(7px) rotate(50deg);
+  -moz-transform: translateY(7px) rotate(50deg);
+  -ms-transform: translateY(7px) rotate(50deg);
+  -o-transform: translateY(7px) rotate(50deg);
+  transform: translateY(7px) rotate(50deg);
+  -webkit-animation: downloadBounce 800ms linear alternate infinite;
+  -moz-animation: downloadBounce 800ms linear alternate infinite;
+  animation: downloadBounce 800ms linear alternate infinite;
+}
+.download:hover span:before {
+  -webkit-transform: translateY(7px) rotate(-50deg);
+  -moz-transform: translateY(7px) rotate(-50deg);
+  -ms-transform: translateY(7px) rotate(-50deg);
+  -o-transform: translateY(7px) rotate(-50deg);
+  transform: translateY(7px) rotate(-50deg);
+  -webkit-animation: downloadBounce2 800ms linear alternate infinite;
+  -moz-animation: downloadBounce2 800ms linear alternate infinite;
+  animation: downloadBounce2 800ms linear alternate infinite;
+}
+
+#Telechargement {
+    color: #ccc;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    margin: auto;
+    max-width: 1130px;
+    min-height: calc(92vh - 50px);
+    min-height: calc(92vh - var(--header-height));
+    padding: 30vh 1em;
+	padding-bottom: 28vh;
+    position: relative;
+}
+
+#Telechargement h2 {
+    display: block;
+    font-size: 1.5em;
+    margin-block-start: 0.83em;
+    margin-block-end: 0.83em;
+    margin-inline-start: 0px;
+    margin-inline-end: 0px;
+    font-weight: bold;
+}
+
+#Telechargement p {
+color: #d3d3d3;
+    font-size: 1.25rem;
+    margin: 0 auto 96px;
+    max-width: 860px;
+    text-align: center;
+}
+	
+.btn-grad {background-image: linear-gradient(to right, #1A2980 0%, #1badac  51%, #1A2980  100%);}
+.btn-grad {
+  min-width: 90px;
+  margin: 10px 0;
+  padding: 14px 40px;
+  text-align: center;
+  text-transform: uppercase;
+  transition: 0.5s;
+  background-size: 200% auto;
+  color: #fff;            
+  border-radius: 6px;
+  display: block;
+}
+.btn-grad:hover {
+  background-position: right center; /* change the direction of the change here */
+  color: #fff;
+  text-decoration: none;
+}
+
+
+.reveal.disabledown{
+
+position: relative; /* has to be position relative for left to work, or you could just do margin-left: -50px; too */
+  width:60%;
+  opacity: calc(0.7 - (var(--ncontent) - var(--valuescrollnum)) * 0.3) ;
+  left: calc((var(--ncontent) - var(--valuescrollnum)) * 10vw);
+  transition: all 1s ease;
+pointer-events: none;
+}
+
+.reveal.disabledown .download{
+display: none;
+}
+.reveal.disableup .download{
+display: none;
+}
+
+.reveal.disableup{
+
+position: relative; /* has to be position relative for left to work, or you could just do margin-left: -50px; too */
+  width:60%;
+  opacity: calc(0.7 - (var(--valuescrollnum) - var(--ncontent)) * 0.3);
+    right: calc((var(--valuescrollnum) - var(--ncontent)) * 10vw);
+  transition: all 1s ease;
+pointer-events: none;
+}
+
+.reveal.active{
+ width:100%;
+  opacity: 1;
+  left: 0px;
+  transition: all 1s ease;
+}
+
+@media (orientation: portrait) {
+	
+	.download {
+  /* rounded corner overflow mask fix */
+  width: 20%;
+  height: 10%;
+  
+}
+.download svg {
+  left: 48%;
+  top: 50%;
+}
+
+.download span{
+  content: "";
+   opacity: 0;
+}
+
+}
