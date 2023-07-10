@@ -217,12 +217,16 @@ overflow-x: hidden;
 	</ul>
 </div>
 
-<div id="buttonmute" onclick="Play()">
+<div id="buttonmute">
 <ul>
-<li><a class="btn-gradient rounded sound"><i class="fa-solid fa-music-note-slash"></i></a></li>
+<li><a onclick="Play()" class="btn-gradient rounded sound"><i class="fa-solid fa-music-note-slash"></i></a></li>
+	        <select id="languageSelect">
+            <option value="fr">Français</option>
+            <option value="en">English</option>
+            <!-- Ajoutez plus d'options pour d'autres langues si nécessaire -->
+        </select>
 	</ul>
 </div>
-
 <div class="topnav" id="navigation">
 
 
@@ -230,11 +234,11 @@ overflow-x: hidden;
   <div id="bordernavigation"></div>
   
 
- <li><a onclick="loadPageSwitch(0)">Accueil</a></li>
-<li><a onclick="loadPageSwitch(1)">Progression</a></li>
-<li><a onclick="loadPageSwitch(2)">Téléchargement</a></li>
- <li><a onclick="loadPageSwitch(3)">FAQ</a></li>
- <li><a onclick="loadPageSwitch(4)">À propos</a></li>
+ <li><a data-translate="home" onclick="loadPageSwitch(0)"></a></li>
+<li><a data-translate="progress" onclick="loadPageSwitch(1)"></a></li>
+<li><a data-translate="download" onclick="loadPageSwitch(2)"></a></li>
+ <li><a data-translate="faq" onclick="loadPageSwitch(3)"></a></li>
+ <li><a data-translate="about" onclick="loadPageSwitch(4)"></a></li>
 </ul>
 </div>
 
@@ -254,6 +258,6 @@ overflow-x: hidden;
  <audio hidden id="ClickAllLink" src="ressources/click.ogg" preload="auto"></audio>
  
 </body>
-
+ <script src="script/language.js"></script>
 <script src="script/main.js"></script>
 </html>
