@@ -13,7 +13,14 @@
 
       <div id="progression-reinc">
 	  <div id="progressionimg-reinc"></div>
- 
+  </div>
+
+  <div id="progression-seventh">
+    <div id="progressionimg-seventh"></div>
+    </div>
+
+    <div id="progression-erasmus">
+      <div id="progressionimg-erasmus"></div>
       </div>
 
       <div class="flex-break"></div>
@@ -51,7 +58,19 @@ contentbarre = '<div id="container_reinc" data-value="' + Math.round(getTotalPro
 		<strong></strong>\
 		</div>\
         <div id="container_reinc_details"></div>';
-$( "#progression-reinc" ).append( contentbarre );	 
+$( "#progression-reinc" ).append( contentbarre );	
+
+contentbarre = '<div id="container_seventh" data-value="' + Math.round(getTotalProgress(erasmus_progress)) / 100 + '" data-size="80" class="contprogress">\
+		<strong></strong>\
+		</div>\
+        <div id="container_seventh_details"></div>';
+$( "#progression-seventh" ).append( contentbarre );	 
+
+contentbarre = '<div id="container_erasmus" data-value="' + Math.round(getTotalProgress(erasmus_progress)) / 100 + '" data-size="80" class="contprogress">\
+		<strong></strong>\
+		</div>\
+        <div id="container_erasmus_details"></div>';
+$( "#progression-erasmus" ).append( contentbarre );	 
 
 $(".contprogress").circleProgress({
   fill: {gradient: ['#5e198e', '#9600ff']}
@@ -70,7 +89,12 @@ requiem_progress.forEach((day) => {
 reinc_progress.forEach((day) => {
   displayProgress(day[0], day[1], day[2], "container_reinc_details");
 });
-
+seventh_progress.forEach((day) => {
+  displayProgress(day[0], day[1], day[2], "container_seventh_details");
+});
+erasmus_progress.forEach((day) => {
+  displayProgress(day[0], day[1], day[2], "container_erasmus_details");
+});
 
 	  
 //updateProgress('navigation', Math.round(getTotalProgress(fata_progress)) / 100);
