@@ -246,9 +246,11 @@ section.mainpage {
 }
 
 #languageSelect {
- top: -85px;
-            left: 50px;
-			position: relative;
+	top:15px;
+left: auto;
+            right: 10px;
+			position:fixed;
+			   z-index: 9999; 
 }
 
 section.mainpagevn {
