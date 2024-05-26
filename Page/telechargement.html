@@ -5,6 +5,8 @@
 		  
 		  </div>
 		  <script>
+			  		    var langDownload = document.getElementById('languageSelect');
+  var selectedLangDown = langDownload.value;
 		          fetch('https://api.github.com/repos/MysticHaze157/Fata-Morgana-Project/releases')
         .then(response => response.json())
         .then(data => {
@@ -70,8 +72,8 @@ releasecontent +='<a href="' + data[i].assets[z].browser_download_url + '" class
 }
 }
 }
-
-       releasecontent +=  '<div id="releaseDate">Dernière mise à jour le ';
+var TextUpdate = translations[selectedLangDown]["updatever"];
+       releasecontent +=  '<div id="releaseDate">' + TextUpdate +' ';
 releasecontent += data[i].published_at.slice(8,10) + '/' + data[i].published_at.slice(5,7) + '/' + data[i].published_at.slice(0,4) + '\
 			</div>\
           </div>';
