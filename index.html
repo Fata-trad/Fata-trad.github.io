@@ -170,7 +170,11 @@ overflow-x: hidden;
 }
 
 #languageSelect {
-position: static;
+ position:fixed;
+   z-index: 9999;
+   left:60px;
+   top:15px;
+   right: auto;
 }
 .histoires {
     grid-gap: 1.4em;
@@ -207,8 +211,7 @@ position: static;
 	      <!-- Hamburger icon -->
         <input onclick="PlaySound('MenuHambSound')" class="side-menu" type="checkbox" id="side-menu"/>
         <label class="hamb" for="side-menu"><span class="hamb-line"></span></label>
-		
-		
+				
 <nav class="stroke">
 
 <div id="dark">
@@ -219,13 +222,6 @@ position: static;
 <div id="buttonmute">
 <ul>
 <li><a onclick="Play()" class="btn-gradient rounded sound"><i class="fa-solid fa-music-note-slash"></i></a></li>
-	        <select id="languageSelect">
-            <option value="fr">Français</option>
-            <option value="en">English</option>
-			<option value="it">Italiano</option>
-			<option value="ar">العربية</option>
-            <!-- Ajoutez plus d'options pour d'autres langues si nécessaire -->
-        </select>
 	</ul>
 </div>
 <div class="topnav" id="navigation">
@@ -245,9 +241,13 @@ position: static;
 
 </nav>
 </header>
-  
-
- 
+  	        <select id="languageSelect">
+            <option value="fr">Français</option>
+            <option value="en">English</option>
+			<option value="it">Italiano</option>
+			<option value="ar">العربية</option>
+            <!-- Ajoutez plus d'options pour d'autres langues si nécessaire -->
+        </select>	
 <main>
 
 
