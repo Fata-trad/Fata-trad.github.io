@@ -245,6 +245,27 @@ section.mainpage {
     position: relative;
 }
 
+#languageSelect {
+ top: -85px;
+            left: 50px;
+			position: relative;
+}
+
+section.mainpagevn {
+    color: #ccc;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    margin: auto;
+    max-width: 2100px;
+    min-height: calc(92vh - 50px);
+    min-height: calc(92vh - var(--header-height));
+    padding: 2em 1em;
+    position: relative;
+	            justify-content: center;
+            align-items: center;
+}
+
 #linkurl {
   text-decoration: none;
   background-image: linear-gradient(currentColor, currentColor);
