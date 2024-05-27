@@ -13,7 +13,7 @@
 	<link rel="stylesheet" href="Style css/btnsite.css" id="styles-btnsite">
 	<link rel='stylesheet' href='https://site-assets.fontawesome.com/releases/v6.4.0/css/all.css'>
 	
-	<link rel="shortcut icon" type="image/x-icon" href="ressources/Fata.ico"/>
+	<link rel="shortcut icon" type="image/png" href="ressources/icon.png"/>
 
 <script src="https://code.jquery.com/jquery-3.6.4.js"></script>
   <script src="script/circle-progress.js"></script>
@@ -165,7 +165,7 @@ overflow-x: hidden;
 
 .infoVN {
 	   display: flex;
-    flex-direction: row;
+    flex-direction: column;
     gap: 2em;
 }
 
@@ -180,7 +180,16 @@ overflow-x: hidden;
     grid-gap: 1.4em;
     display: grid;
     gap: 1.4em;
-    grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
+    grid-template-columns: 1fr 1fr 1fr;
+}
+
+.histoires2 {
+    grid-gap: 1.4em;
+    display: grid;
+    gap: 1.4em;
+    grid-template-columns: 0.5fr 1fr 1fr 0.5fr;
+	  grid-template-areas:
+    "a b c d";
 }
 
   .histoire {
@@ -194,6 +203,8 @@ overflow-x: hidden;
     position: relative;
     width: 100%;
   }
+#seventhitem { grid-area: b; }
+#erasmusitem { grid-area: c; }
   
 }
 		</style>
