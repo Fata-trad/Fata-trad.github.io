@@ -73,9 +73,10 @@
 #Galerie {
     margin-Top: 76px;
     background-color: #2f0b48;
-    padding: 8vh 0;
+    padding: 8vh 20px;
     position: relative;
 	z-index: 100;
+	justify-content: center; 
 	}
 	
 #Galerie h1, #Accueil3 h1 {
