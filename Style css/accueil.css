@@ -17,7 +17,7 @@
     box-sizing: border-box;
     display: flex;
     flex-direction: column;
-	height: 340px;
+	height: clamp(430px,50vh,700px);
     justify-content: space-between;
     overflow: hidden;
     position: relative;
