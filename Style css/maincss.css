@@ -259,7 +259,7 @@ section.mainpagevn {
     flex-direction: column;
     justify-content: center;
     margin: auto;
-    max-width: 2100px;
+    max-width: 1400px;
     min-height: calc(92vh - 50px);
     min-height: calc(92vh - var(--header-height));
     padding: 2em 1em;
