@@ -40,7 +40,6 @@
 
   </section>
 <script>
-changeLanguage();
 var contentbarre;
 contentbarre = '<div id="container_fata" data-value="' + Math.round(getTotalProgress(fata_progress)) / 100 + '" data-size="80" class="contprogress">\
 		<strong></strong>\
@@ -70,8 +69,10 @@ contentbarre = '<div id="container_erasmus" data-value="' + Math.round(getTotalP
 		<strong></strong>\
 		</div>\
         <div id="container_erasmus_details"></div>';
-$( "#progression-erasmus" ).append( contentbarre );	 
-
+$( "#progression-erasmus" ).append( contentbarre );
+	
+changeLanguage();
+	
 $(".contprogress").circleProgress({
   fill: {gradient: ['#5e198e', '#9600ff']}
 }).on('circle-animation-progress', function(event, progress, stepValue) {
