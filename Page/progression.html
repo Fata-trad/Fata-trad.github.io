@@ -70,9 +70,7 @@ contentbarre = '<div id="container_erasmus" data-value="' + Math.round(getTotalP
 		</div>\
         <div id="container_erasmus_details"></div>';
 $( "#progression-erasmus" ).append( contentbarre );
-	
-changeLanguage();
-	
+		
 $(".contprogress").circleProgress({
   fill: {gradient: ['#5e198e', '#9600ff']}
 }).on('circle-animation-progress', function(event, progress, stepValue) {
@@ -96,7 +94,7 @@ seventh_progress.forEach((day) => {
 erasmus_progress.forEach((day) => {
   displayProgress(day[0], day[1], day[2], "container_erasmus_details");
 });
-
+changeLanguage();
 	  
 //updateProgress('navigation', Math.round(getTotalProgress(fata_progress)) / 100);
 //updateProgress('container_requiem', Math.round(getTotalProgress(requiem_progress)) / 100);
