@@ -1,100 +1,256 @@
-section#mainpageprogress{max-width:1350.00pt;}section#mainpageprogress{color:#CC
-CCCC;}section#mainpageprogress{padding:2em 1em;}section#mainpageprogress{margin:
-auto;}section#mainpageprogress{display:flex;}section#mainpageprogress{min-height
-:100vh;}section#mainpageprogress{flex-direction:column;}section#mainpageprogress
-{justify-content:center;}#progression{display:flex;}#progression{gap:2em;}#progr
-ession{width:100%;}#progression{flex-wrap:wrap;}#progression{color:white;}#progr
-ession{padding-top:1.2500pc;}#progression h2{margin:0;}#progression h2{margin-bl
-ock-end:0.83em;}#progression h2{position:absolute;}#progression h2{top:0;}#progr
-ession h2{font-size:min(6vw, 4em);}#progression h2{color:#58575e;}#progression h
-2{font-variant:all-small-caps;}#progression h2{width:min-content;}#progression h
-2{line-height:0.7em;}#progression h2{z-index:0;}#progression-fata, #progression-
-requiem, #progression-reinc, #progression-seventh, #progression-erasmus{flex:1;}
-#progression-fata, #progression-requiem, #progression-reinc, #progression-sevent
-h, #progression-erasmus{position:relative;}#progression-fata, #progression-requi
-em, #progression-reinc, #progression-seventh, #progression-erasmus{padding-top:0
-.0000pc;}#progression-fata, #progression-requiem, #progression-reinc, #progressi
-on-seventh, #progression-erasmus{overflow-x:hidden;}#progression-fata, #progress
-ion-requiem, #progression-reinc, #progression-seventh, #progression-erasmus{back
-ground-color:rgba(0,0,0,1);}#progression-fata, #progression-requiem, #progressio
-n-reinc, #progression-seventh, #progression-erasmus{border-radius:40px;}#progres
-sion-fata, #progression-requiem, #progression-reinc, #progression-seventh, #prog
-ression-erasmus{z-index:-3;}#container_requiem_details{margin-top:60%;}#containe
-r_requiem_details{margin-bottom:1.8750pc;}#container_fata_details{margin-top:60%
-;}#container_reinc_details{margin-top:60%;}#container_seventh_details{margin-top
-:60%;}#container_erasmus_details{margin-top:60%;}#progressionimg-fata{position:a
-bsolute;}#progressionimg-fata{padding-top:4.3750pc;}#progressionimg-fata{overflo
-w:hidden;}#progressionimg-fata{background-image:linear-gradient(to bottom, rgba(
-0,0,0,0) 20%,
-              rgba(0,0,0,1)), url('../ressources/FATA.jpg');}#progressionimg-fat
-a{background-size:100% auto;}#progressionimg-fata{width:100%;}#progressionimg-fa
-ta{height:50%;}#progressionimg-fata{top:0px;}#progressionimg-fata{background-rep
-eat:no-repeat;}#progressionimg-fata{background-position:center top;}#progression
-img-fata{z-index:-5;}#progressionimg-requiem{position:absolute;}#progressionimg-
-requiem{padding-top:4.3750pc;}#progressionimg-requiem{overflow:hidden;}#progress
-ionimg-requiem{background:linear-gradient(to bottom, rgba(0,0,0,0.2) 20%,
-              rgba(0,0,0,1)), url('../ressources/FATA REQUIEM.jpg');}#progressio
-nimg-requiem{background-size:100% auto;}#progressionimg-requiem{width:100%;}#pro
-gressionimg-requiem{height:50%;}#progressionimg-requiem{top:0px;}#progressionimg
--requiem{background-repeat:no-repeat;}#progressionimg-requiem{background-positio
-n:center top;}#progressionimg-requiem{z-index:-5;}#progressionimg-reinc{position
-:absolute;}#progressionimg-reinc{padding-top:4.3750pc;}#progressionimg-reinc{ove
-rflow:hidden;}#progressionimg-reinc{background-image:linear-gradient(to bottom, 
-rgba(0,0,0,0) 20%,
-              rgba(0,0,0,1)), url('../ressources/FATA REINCARNATION.jpg');}#prog
-ressionimg-reinc{background-size:100% auto;}#progressionimg-reinc{width:100%;}#p
-rogressionimg-reinc{height:50%;}#progressionimg-reinc{top:0px;}#progressionimg-r
-einc{background-repeat:no-repeat;}#progressionimg-reinc{background-position:cent
-er top;}#progressionimg-reinc{z-index:-5;}#progressionimg-erasmus{position:absol
-ute;}#progressionimg-erasmus{padding-top:4.3750pc;}#progressionimg-erasmus{overf
-low:hidden;}#progressionimg-erasmus{background-image:linear-gradient(to bottom, 
-rgba(0,0,0,0) 20%,
-              rgba(0,0,0,1)), url('../ressources/Erasmus.jpg');}#progressionimg-
-erasmus{background-size:100% auto;}#progressionimg-erasmus{width:100%;}#progress
-ionimg-erasmus{height:45%;}#progressionimg-erasmus{top:0px;}#progressionimg-eras
-mus{background-repeat:no-repeat;}#progressionimg-erasmus{background-position:cen
-ter top;}#progressionimg-erasmus{z-index:-5;}#progressionimg-seventh{position:ab
-solute;}#progressionimg-seventh{padding-top:4.3750pc;}#progressionimg-seventh{ov
-erflow:hidden;}#progressionimg-seventh{background-image:linear-gradient(to botto
-m, rgba(0,0,0,0) 20%,
-              rgba(0,0,0,1)), url('../ressources/Seventh.jpg');}#progressionimg-
-seventh{background-size:100% auto;}#progressionimg-seventh{width:100%;}#progress
-ionimg-seventh{height:50%;}#progressionimg-seventh{top:0px;}#progressionimg-seve
-nth{background-repeat:no-repeat;}#progressionimg-seventh{background-position:cen
-ter top;}#progressionimg-seventh{z-index:-5;}#progression-le{margin-bottom:2em;}
-[class~=pb-wrapper]{width:80%;}[class~=pb-wrapper]{height:0.4em;}[class~=pb-wrap
-per]{background-color:#2d2d2d;}[class~=pb-wrapper]{margin:0 auto;}[class~=pb-wra
-pper]{overflow:hidden;}[class~=pb-wrapper]{border-radius:2px;}[class~=pb-wrapper
-]{z-index:0;}[class~=pb-bar]{height:100%;}[class~=pb-bar]{background-color:#5e19
-8e;}[class~=pb-text-wrapper]{display:flex;}[class~=pb-text-wrapper]{align-items:
-center;}[class~=pb-text-wrapper]{place-content:space-between;}[class~=pb-text-wr
-apper]{margin-block-start:1.5em;}[class~=pb-text-wrapper]{margin-block-end:0.4em
-;}[class~=pb-text-element]{color:white;}[class~=pb-text-element]{right:50px;}[cl
-ass~=pb-text-element]{margin:auto;}[class~=pb-text]{display:block;}[class~=pb-te
-xt]{float:right;}[class~=pb-text]{padding:0 16px;}[class~=pb-text]{color:rgb(175
- 175 175);}[class~=barre-prog:hover .pb-text]{display:block;}[class~=barre-prog:
-hover .pb-text]{z-index:2;}[class~=flex-break]{width:100%;}[class~=contprogress]
-{margin-right:auto;}[class~=contprogress]{left:5px;}[class~=contprogress]{top:5p
-x;}[class~=contprogress]{width:52.50pt;}[class~=contprogress]{height:52.50pt;}[c
-lass~=contprogress]{position:relative;}[class~=progression-bottom-container]{dis
-play:flex;}[class~=progression-bottom-container]{place-content:space-evenly;}[cl
-ass~=progression-bottom-container]{width:100%;}[class~=progression-bottom-contai
-ner]{flex-flow:wrap;}[class~=progression-bottom-container]{gap:10px;}[class~=pro
-gression-bottom]{display:flex;}[class~=progression-bottom]{align-items:center;}[
-class~=progression-bottom]{gap:10px;}[class~=progression-bottom]{flex-direction:
-column;}[class~=progression-bottom .container]{margin:initial;}[class~=progressi
-on-bottom .container]{float:left;}[class~=circle]{width:75.00pt;}[class~=circle]
-{margin:6px 6px 20px;}[class~=circle]{display:inline-block;}[class~=circle]{posi
-tion:relative;}[class~=circle]{text-align:center;}[class~=circle]{line-height:1.
-2;}[class~=contprogress canvas]{vertical-align:top;}[class~=contprogress strong]
-{position:absolute;}[class~=contprogress strong]{top:20px;}[class~=contprogress 
-strong]{left:6px;}[class~=contprogress strong]{width:100%;}[class~=contprogress 
-strong]{text-align:center;}[class~=contprogress strong]{line-height:30.00pt;}[cl
-ass~=contprogress strong]{font-size:0.3125in;}[class~=contprogress strong]{text-
-shadow:#9600ff 0px 0px 1px,   #9600ff 0px 0px 1px,   #9600ff 0px 0px 1px,
-             #9600ff 0px 0px 1px,   #9600ff 0px 0px 1px,   #9600ff 0px 0px 1px;}
-[class~=contprogress strong]{-webkit-font-smoothing:antialiased;}[class~=contpro
-gress strong i]{font-style:normal;}[class~=contprogress strong i]{font-size:0.6e
-m;}[class~=contprogress strong i]{font-weight:normal;}[class~=contprogress span]
-{display:block;}[class~=contprogress span]{color:#aaa;}[class~=contprogress span
-]{margin-top:0.7500pc;}
+section#mainpageprogress {
+    max-width: 1800px;
+    color: #CCCCCC;
+    padding: 2em 1em;
+    margin: auto;
+    display: flex;
+    min-height: 100vh;
+    flex-direction: column;
+    justify-content: center;
+}
+
+#progression{
+  display: flex;
+  gap: 2em;
+  width: 100%;
+  flex-wrap: wrap;
+  color: white;
+  padding-top: 20px;
+}
+#progression h2{
+  margin: 0;
+  margin-block-end: 0.83em;
+  position: absolute;
+  top: 0;
+  font-size: min(6vw, 4em);
+  color: #58575e;
+  font-variant: all-small-caps;
+  width: min-content;
+  line-height: 0.7em;
+  z-index: 0;
+}
+
+#progression-fata, #progression-requiem, #progression-reinc, #progression-seventh, #progression-erasmus {
+  flex: 1;
+  position: relative;
+  padding-top: 0px;
+  overflow-x: hidden;
+  background-color : rgba(0,0,0,1);
+  border-radius: 40px;
+  z-index: -3;
+}
+
+#container_requiem_details{
+	margin-top: 60%;
+margin-bottom: 30px;
+}
+
+#container_fata_details{
+	margin-top: 60%;
+
+}
+
+#container_reinc_details{
+	margin-top: 60%;
+
+}
+#container_seventh_details{
+	margin-top: 60%;
+}
+#container_erasmus_details{
+	margin-top: 60%;
+}
+
+
+#progressionimg-fata{
+  position: absolute;
+  padding-top: 70px;
+  overflow: hidden;
+      background-image: linear-gradient(to bottom, rgba(0,0,0,0) 20%,
+              rgba(0,0,0,1)), url('../ressources/FATA.jpg');
+background-size: 100% auto;
+width: 100%;
+height: 50%;
+top:0px;
+    background-repeat: no-repeat;
+background-position: center top;
+z-index: -5;
+
+}
+
+#progressionimg-requiem{
+  position: absolute;
+  padding-top: 70px;
+  overflow: hidden;
+  background: linear-gradient(to bottom, rgba(0,0,0,0.2) 20%,
+              rgba(0,0,0,1)), url('../ressources/FATA REQUIEM.jpg');
+background-size: 100% auto;
+width: 100%;
+height: 50%;
+top:0px;
+    background-repeat: no-repeat;
+background-position: center top;
+z-index: -5;
+}
+
+#progressionimg-reinc {
+  position: absolute;
+  padding-top: 70px;
+  overflow: hidden;
+      background-image: linear-gradient(to bottom, rgba(0,0,0,0) 20%,
+              rgba(0,0,0,1)), url('../ressources/FATA REINCARNATION.jpg');
+background-size: 100% auto;
+width: 100%;
+height: 50%;
+top:0px;
+    background-repeat: no-repeat;
+background-position: center top;
+z-index: -5;
+}
+
+#progressionimg-erasmus {
+  position: absolute;
+  padding-top: 70px;
+  overflow: hidden;
+      background-image: linear-gradient(to bottom, rgba(0,0,0,0) 20%,
+              rgba(0,0,0,1)), url('../ressources/Erasmus.jpg');
+background-size: 100% auto;
+width: 100%;
+height: 45%;
+top:0px;
+    background-repeat: no-repeat;
+background-position: center top;
+z-index: -5;
+}
+
+#progressionimg-seventh {
+  position: absolute;
+  padding-top: 70px;
+  overflow: hidden;
+      background-image: linear-gradient(to bottom, rgba(0,0,0,0) 20%,
+              rgba(0,0,0,1)), url('../ressources/Seventh.jpg');
+background-size: 100% auto;
+width: 100%;
+height: 50%;
+top:0px;
+    background-repeat: no-repeat;
+background-position: center top;
+z-index: -5;
+}
+
+#progression-le {
+  margin-bottom: 2em;
+}
+.pb-wrapper{
+  width: 80%;
+  height: 0.4em;
+  background-color: #2d2d2d;
+  margin: 0 auto;
+  overflow: hidden;
+  border-radius: 2px;
+ z-index: 0; 
+}
+.pb-bar{
+  height: 100%;
+  background-color: #5e198e;
+}
+.pb-text-wrapper {
+  display: flex;
+  align-items: center;      
+  place-content: space-between;
+  margin-block-start: 1.5em;
+  margin-block-end: 0.4em;
+}
+.pb-text-element{
+	color: white;
+	right: 50px;
+	margin: auto;
+	}
+	
+.pb-text{
+	display: block;
+  float: right;
+  padding: 0 16px;
+  color: rgb(175 175 175);
+
+}
+ 
+.barre-prog:hover .pb-text {
+  display: block;
+  z-index: 2;
+}
+.flex-break{
+  width: 100%;
+}
+
+.contprogress {
+   margin-right:auto;
+   left:5px;
+   top: 5px;
+  width: 70px;
+  height: 70px;
+  position: relative;
+}
+
+.progression-bottom-container {
+  display: flex;
+  place-content: space-evenly;
+  width: 100%;
+  flex-flow: wrap;
+  gap: 10px;
+}
+.progression-bottom {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  flex-direction: column;
+}
+.progression-bottom .container {
+  margin: initial;
+  float: left;
+}
+
+.circle {
+  width: 100px;
+  margin: 6px 6px 20px;
+  display: inline-block;
+  position: relative;
+  text-align: center;
+  line-height: 1.2;
+}
+
+.contprogress canvas {
+  vertical-align: top;
+}
+
+.contprogress strong {
+  position: absolute;
+  top: 20px;
+  left: 6px;
+  width: 100%;
+  text-align: center;
+  line-height: 40px;
+  font-size: 30px;
+  text-shadow: #9600ff 0px 0px 1px,   #9600ff 0px 0px 1px,   #9600ff 0px 0px 1px,
+             #9600ff 0px 0px 1px,   #9600ff 0px 0px 1px,   #9600ff 0px 0px 1px;
+    -webkit-font-smoothing: antialiased;
+}
+
+.contprogress strong i {
+  font-style: normal;
+  font-size: 0.6em;
+  font-weight: normal;
+}
+
+.contprogress span {
+  display: block;
+  color: #aaa;
+  margin-top: 12px;
+}
+
+@media (orientation: portrait) {
+#progression{
+  display: grid;
+}
+
+}
