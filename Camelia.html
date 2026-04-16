@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Jeu Flash avec Ruffle</title>
+  <style>
+    #flash-container {
+      width: 960px;
+      height: 540px;
+      max-width: 100%;
+      margin: 2rem auto;
+      background: #000;
+    }
+  </style>
+</head>
+<body>
+  <div id="flash-container"></div>
+
+  <script>
+    window.RufflePlayer = window.RufflePlayer || {};
+
+    window.addEventListener("DOMContentLoaded", () => {
+      const ruffle = window.RufflePlayer.newest();
+      const player = ruffle.createPlayer();
+      const container = document.getElementById("flash-container");
+
+      player.style.width = "100%";
+      player.style.height = "100%";
+
+      container.appendChild(player);
+
+      player.ruffle().load("nigoro011.swf");
+    });
+  </script>
+
+  <script src="ruffle/ruffle.js"></script>
+</body>
+</html>
