@@ -5,39 +5,48 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
   <title>Jeu Flash avec Ruffle</title>
   <style>
-html, body {
-  margin: 0;
-  width: 100%;
-  height: 100%;
-  background: #000;
-}
+    html, body {
+      margin: 0;
+      width: 100%;
+      height: 100%;
+      background: #000;
+    }
 
-body {
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  overflow: hidden;
-}
+    body {
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      overflow: hidden;
+    }
 
-#flash-container {
-  width: min(100vw, calc(100vh * 16 / 9));
-  aspect-ratio: 16 / 9;
-  background: #000;
-}
+    #flash-container {
+      width: min(100vw, calc(100vh * 16 / 9));
+      aspect-ratio: 16 / 9;
+      background: #000;
+    }
 
-#flash-container > * {
-  width: 100%;
-  height: 100%;
-  display: block;
-}
+    #flash-container > * {
+      width: 100%;
+      height: 100%;
+      display: block;
+    }
   </style>
+
+  <script>
+    window.RufflePlayer = window.RufflePlayer || {};
+    window.RufflePlayer.config = {
+      autoplay: "on",
+      unmuteOverlay: "hidden",
+      splashScreen: false
+    };
+  </script>
+
+  <script src="ruffle/ruffle.js"></script>
 </head>
 <body>
   <div id="flash-container"></div>
 
   <script>
-    window.RufflePlayer = window.RufflePlayer || {};
-
     window.addEventListener("DOMContentLoaded", () => {
       const ruffle = window.RufflePlayer.newest();
       const player = ruffle.createPlayer();
@@ -50,7 +59,5 @@ body {
       player.ruffle().load("nigoro011.swf");
     });
   </script>
-
-  <script src="ruffle/ruffle.js"></script>
 </body>
 </html>
